@@ -1,4 +1,4 @@
-# Tugas-1 - Welcome to my GitHub! 👋
+# Tugas 1 - Welcome to my GitHub! 👋
 Hi there 👋
 
 My name is Angelica Farren Limzinky (NPM 6162201021).
