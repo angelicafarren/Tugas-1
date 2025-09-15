@@ -1,15 +1,30 @@
 # Tugas 1 - Welcome to my GitHub! 👋
 Hi there 👋
+My name is Angelica Farren Limzinky (NPM 6162201021)
 
-My name is Angelica Farren Limzinky (NPM 6162201021).
-I’m currently studying Mathematics at Universitas Katolik Parahyangan (UNPAR).
+# 🚀 Dasar Git & GitHub
 
-This GitHub is where I keep some of my projects, notes, and experiments.
+## 1. Persiapan
+- Install [VS Code](https://code.visualstudio.com/download) & [Git](https://git-scm.com/downloads)  
+- Buat akun [GitHub](https://github.com)  
 
-About Me
+## 2. Konfigurasi Awal
+```bash
+git config --global user.name "yourname"
+git config --global user.email "youremail@mail.com"
+ssh-keygen -t ed25519 -C "youremail@mail.com"
 
-🎓 Undergraduate student in Mathematics
+# clone repo dari GitHub
+git clone git@github.com:username/reponame.git
+cd reponame
 
-🔍 Interested in Actuarial Science, Data, and Problem Solving
+# cek status & update
+git status
+git pull origin main
 
-💻 Learning to apply math and programming in real-world cases
+# buat/edit file, lalu simpan perubahan
+git add .
+git commit -m "pesan commit"
+
+# kirim ke GitHub
+git push origin main
